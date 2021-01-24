@@ -1,0 +1,17 @@
+
+<H1>Welcome!</H1>
+<div class="container" >
+    Welcome {{name}} , to our app you can manage your todo <a routerLink="/todos">here</a>
+</div>
+<div class="container">
+    click here to get customize welcome message
+    <button (click)=welcomemessagepath() class="btn btn-success">Get Welcome Message</button>
+</div>
+<div class="container" *ngIf="mess">
+<h2>Your customize message</h2>
+   {{mess}}
+</div>
+<div class="container" *ngIf="err">
+    <h2>PFB error</h2>
+       {{err}}
+    </div>

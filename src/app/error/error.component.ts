@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./error.component.css']
 })
 export class ErrorComponent implements OnInit {
-  errorMessage = 'An error ocurred pls contact at 9958881785'
+//   errorMessage = 'An error ocurred pls contact at 9958881785'
+  errorMessage = 'An error ocurred pls contact at 8178586099'
   constructor() { }
 
   ngOnInit(): void {
